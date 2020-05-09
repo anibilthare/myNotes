@@ -1,0 +1,25 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "description": "Basic backend design for a note taking application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anibilthare/myNotes.git"
+  },
+  "author": "Animesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anibilthare/myNotes/issues"
+  },
+  "homepage": "https://github.com/anibilthare/myNotes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "mongoose-unique-validator": "^2.0.3",
+    "validator": "^13.0.0"
+  }
+}
