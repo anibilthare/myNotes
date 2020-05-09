@@ -49,7 +49,7 @@ note.update = (req,res) => {
     }
 })}
 
-//Retrieves all the notes
+//Retrieve all the notes
 note.get = (req,res) => {
     notes.find({}, (err,docs) => {
         if(err)
